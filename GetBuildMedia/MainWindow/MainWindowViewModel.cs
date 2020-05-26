@@ -262,7 +262,7 @@ namespace GetBuildMedia
 
         public RelayCommand AboutCommand => new RelayCommand(() =>
         {
-            MessageBox.Show($"A simple Build 2020 media downloader.  For info and source code, visit http://github.com/squideyes/GetBuildMedia.",
+            MessageBox.Show($"A simple media downloader for video and audio files, sourced from Microsoft's Channel 9.  For further info plus source code, please visit http://github.com/squideyes/GetBuildMedia.",
                 "About", MessageBoxButton.OK, MessageBoxImage.Question);
         });
 
