@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>GetBuildMedia.ico</ApplicationIcon>
+    <Authors>Louis S. Berman</Authors>
+    <Company>SquidEyes, LLC</Company>
+    <Description>A simple downloader for select Build 2020 audio and vieo files, sourced from Microsoft's Channel 9</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>http://github.com/squideyes/GetBuildMedia</RepositoryUrl>
+    <PackageTags>Build,Build 2020</PackageTags>
+    <PackageIcon>GetBuildMedia.ico</PackageIcon>
+    <Copyright>Copyright 2020 by Louis S. Berman</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="GetBuildMedia.ico" />
+    <None Include="GetBuildMedia.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="GetBuildMedia.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CodeHollow.FeedReader" Version="1.2.1" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.23" />
+    <PackageReference Include="MvvmLight" Version="5.4.1.1" />
+    <PackageReference Include="MvvmLightLibsStd10" Version="5.4.1.1" />
+    <PackageReference Include="System.Threading.Tasks.Dataflow" Version="4.11.1" />
+  </ItemGroup>
+
+</Project>
