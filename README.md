@@ -1,4 +1,4 @@
-**GetBuildMedia** downloads select audio and video files from the recent Build2020 conference, sourced from Microsoft's Channel 9.  
+**GetBuildMedia** downloads audio and video files from the recent Build2020 conference, sourced from Microsoft's Channel 9.  
 
 The software should be pretty easy to use:  
 
