@@ -11,3 +11,5 @@ The software should be pretty easy to use:
     * The media is **downloaded to \{My Documents}\GetBuildMedia** folder
 
 The source code for GetBuildMedia can be found at http://github.com/squideyes/GetBuildMedia.  Improvements (via Pull Request) or even suggestions would be very much appreciated.
+
+One more thing.  If you want to give it a go without the fuss and bother of downloading and compiling the source  yourself, you can get the latest release at: <a href="https://getbuildmedia.blob.core.windows.net/software/GetBuildMedia.zip" target="_blank">https://getbuildmedia.blob.core.windows.net/software/GetBuildMedia.zip</a>
