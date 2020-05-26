@@ -13,6 +13,8 @@
     <PackageTags>Build,Build 2020</PackageTags>
     <PackageIcon>GetBuildMedia.ico</PackageIcon>
     <Copyright>Copyright 2020 by Louis S. Berman</Copyright>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>GetBuildMedia.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <ItemGroup>
